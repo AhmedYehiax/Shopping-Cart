@@ -1,25 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Shopping App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        fontFamily: 'Suwannaphum',
-      ),
-      home: const HomePage(),
-    );
-  }
-}
-
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -130,7 +110,6 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Featured Products Section with PageView
             const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
@@ -191,7 +170,6 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
 
-            // Products Grid Section
             const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
@@ -281,7 +259,6 @@ class _HomePageState extends State<HomePage> {
               },
             ),
 
-            // Hot Offers Section
             const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(

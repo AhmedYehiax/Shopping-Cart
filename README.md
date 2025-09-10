@@ -25,14 +25,15 @@ A Flutter-based shopping application with user authentication and product browsi
 
 ## Project Structure
 
+```
 lib/
 ├── main.dart
 ├── screens/
-│ ├── welcome_page.dart
-│ ├── sign_in_page.dart
-│ ├── sign_up_page.dart
-│ └── home_page.dart
-
+│   ├── welcome_page.dart
+│   ├── sign_in_page.dart
+│   ├── sign_up_page.dart
+│   └── home_page.dart
+```
 
 
 ## Screenshots

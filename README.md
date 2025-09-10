@@ -1,16 +1,39 @@
-# shopping_app
+# Shopping App
 
-A new Flutter project.
+A Flutter-based shopping application with user authentication and product browsing features.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User authentication (Sign In/Sign Up)
+- Welcome screen with app introduction
+- Featured products carousel
+- Product catalog with grid view
+- Hot offers section
+- Add to cart functionality
 
-A few resources to get you started if this is your first Flutter project:
+## Setup Instructions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone this repository
+2. Ensure you have Flutter installed on your machine
+3. Run `flutter pub get` to install dependencies
+4. Run `flutter run` to start the application
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+
+- Flutter SDK
+- Material Design components
+
+## Project Structure
+
+lib/
+├── main.dart
+├── screens/
+│ ├── welcome_page.dart
+│ ├── sign_in_page.dart
+│ ├── sign_up_page.dart
+│ └── home_page.dart
+
+
+
+## Screenshots
+

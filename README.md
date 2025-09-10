@@ -1,4 +1,4 @@
-# Shopping App
+# Shopping Cart App
 
 A Flutter-based shopping application with user authentication and product browsing features.
 

@@ -39,11 +39,11 @@ class _SignInPageState extends State<SignInPage> {
             actions: [
               FilledButton(
                 onPressed: () {
-                  Navigator.of(context).pop(); // Close dialog
+                  Navigator.of(context).pop();
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(builder: (context) => HomePage()),
-                  );// Navigate back to main screen
+                  );
                 },
                 style: ButtonStyle(
                   backgroundColor:  MaterialStateProperty.all(Colors.green),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_app/wellcome_page.dart';
+import 'package:shopping_app/screens/welcome_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,12 +8,11 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WellcomePage(),
+      home: WelcomePage(),
     );
   }
 }
